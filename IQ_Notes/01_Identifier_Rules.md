@@ -65,7 +65,7 @@ Digits are fine *after* the first character, never as the first character.
 
 ### 3. Case sensitivity
 ```js
-var Name = "pramod";
+var Name = "ravi";
 var name = "Amit";
 ```
 `Name` and `name` are two completely different bindings — no collision, no warning.
@@ -73,8 +73,8 @@ var name = "Amit";
 ### 4. Spaces break identifiers, underscores don't
 ```js
 // var pramod dutta = "hello";   // ❌ SyntaxError
-var pramod_dutta = "hello";      // ✅
-var pramod$dutta = "hello";      // ✅
+var ravi_teja = "hello";      // ✅
+var ravi$teja = "hello";      // ✅
 ```
 A space splits one identifier into two illegal tokens. `_` and `$` are the only "joiners" JS understands inside a name.
 
