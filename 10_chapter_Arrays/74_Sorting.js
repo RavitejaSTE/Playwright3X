@@ -18,3 +18,13 @@ nums.sort((a,b) => b-a); // Desc
 console.log(nums);
 nums.reverse();
 console.log(nums);
+
+
+
+let marks = [-33, -11, 20, 35, 42, 68, 28, 55,98, 82, 61, 15];
+console .log("Number Sorting");
+console.log(marks.sort());
+console.log(marks.sort((a,b) => a-b)); // Asc
+console.log(marks.sort((a,b) => b-a)); // Desc
+console.log(marks.reverse()); // Desc     
+

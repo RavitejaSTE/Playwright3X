@@ -15,17 +15,46 @@ let copy3 = Array.from(original);
 let copy4 = original.concat();
 // console.log(copy4);
 
-console.log(" ---- ");
-copy1.push(99);
-console.log(original);
-console.log(copy1);
+// console.log(" ---- ");
+// copy1.push(99);
+// console.log(original);
+// console.log(copy1);
 
 // Deep cOPY
 let deep_copy_array = original;
 // Deep copy
 
-deep_copy_array.push(91);
-console.log(original);
-console.log(deep_copy_array);
+// deep_copy_array.push(91);
+// console.log(original);
+// console.log(deep_copy_array);
 
 
+
+//------------------------------------
+let sample = [11, 12, 13, 14, 15];
+//console.log(sample);
+
+let copySam = [...sample];
+//console.log(copySam);
+
+let r1 = sample.slice();
+//console.log(r1);
+
+let ss = Array.from(sample);
+//console.log(ss);
+
+let dd = sample.concat();
+//console.log(dd);
+
+let newSample = sample;
+//console.log(newSample);
+
+//newSample.push(22);
+console.log(dd);
+dd.push(20)
+
+console.log(dd);
+console.log(ss);
+console.log(sample);
+//console.log(newSample);
+//console.log(sample);

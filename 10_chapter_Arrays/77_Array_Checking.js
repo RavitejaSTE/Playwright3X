@@ -4,8 +4,10 @@
 
 let result = Array.isArray([1, 2, 3]);
 let result1 = Array.isArray("a");
+let result2 = Array.isArray('a');
 console.log(result);
 console.log(result1);
+console.log(result2);
 
 // map, filter, reduce
 
@@ -18,3 +20,6 @@ console.log([80, 60, 85].every(s => s >= 70)); // false
 // some — AT LEAST ONE must pass
 console.log([80, 60, 85].some(s => s < 70)); // true
 console.log([80, 90, 85].some(s => s < 70)); // false
+
+let a = Array.isArray(['apple', 'banna', 'cherry']);
+console.log("Is it an array =>"+a + ' & is not an array => '+ !a);
